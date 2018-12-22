@@ -42,3 +42,25 @@ if x == !y {  // true: ! (not operator) inverts boolen , so true becomes false, 
 } else {
     print("x and y are same boolean")
 }
+
+
+// learning about integers
+var a1 = Int.max
+var a2 = Int.min
+var a3 = UInt.max
+var a4 = UInt.min
+var a5 = Int8.max
+var a6 = Int16.max
+var a7 = Int32.max
+var a8 = Int64.max
+var text = """
+    Int.max = \(a1)
+    Int.min = \(a2)
+    UInt.max = \(a3)
+    UInt.min = \(a4)
+    Int8.max = \(a5)
+    Int16.max = \(a6)
+    Int32.max = \(a7)
+    Int64.max = \(a8)
+    """
+print(text)
