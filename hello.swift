@@ -64,3 +64,5 @@ var text = """
     Int64.max = \(a8)
     """
 print(text)
+
+// test to see how to upload changes from phone
